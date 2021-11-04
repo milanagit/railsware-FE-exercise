@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link href="dist/fonts/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/styles/css/login_style.css">
 </head>
 <body>
+
+    <div class="mainContent mainContent__login center">
+        <!-- Image -->
+        <div class="imgContainer imgContainer__login margin-lg-u margin-lg-d">
+            <img src="dist/images/Login-illustration.png" alt="Login image">
+        </div>
+        <!-- Heading -->
+        <div class="heading heading__login margin-lg-d">
+            <h1>Welcome Back!</h1>
+        </div>
+        <!-- Form -->
+        <div class="form form__login">
+            <form class="center" action="">
+                <input class="input__user input--lg margin-lg-d" type="text" placeholder="example@gmail.com">
+                <div class="inputPass">
+                    <input class="input__password input--lg margin-lg-d" type="password" placeholder="password">
+                    <span class="pass-txt"><a href="#">Forgot Password?</a></span>
+                </div>
+                <button class="btn btn__login btn--lg btn--blue margin-xlg-u" type="submit">Login</button>
+            </form>
+        </div>
+        <!-- Break Txt -->
+        <div class="breakTxt breakTxt__login margin-xlg-u">
+            <span>Or connect with social</span>
+        </div>
+        <!-- Social -->
+        <div class="btns btns__login margin-lg-u">
+            <button class="btn btn__login btn--blue">Facebook</button>
+            <button class="btn btn__login btn--red">Google</button>
+        </div>
+    </div>
     
 </body>
 </html>

@@ -1,0 +1,141 @@
+/****** Colors ******/
+/****** Colors ******/
+/* roboto-regular - latin */
+@import url("../../fonts/fontawesome-free-5.15.4-web/css/fontawesome-all.min.css");
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/roboto-v29-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v29-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v29-latin-regular.woff2") format("woff2"), url("../../fonts/roboto-v29-latin-regular.woff") format("woff"), url("../../fonts/roboto-v29-latin-regular.ttf") format("truetype"), url("../../fonts/roboto-v29-latin-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/roboto-v29-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../../fonts/roboto-v29-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/roboto-v29-latin-700.woff2") format("woff2"), url("../../fonts/roboto-v29-latin-700.woff") format("woff"), url("../../fonts/roboto-v29-latin-700.ttf") format("truetype"), url("../../fonts/roboto-v29-latin-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+h1 {
+  font-size: 36px;
+  font-family: "Roboto";
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #767676;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #767676;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #767676;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #767676;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.margin-lg-d {
+  margin: 0 0 20px;
+}
+
+.margin-lg-u {
+  margin: 20px 0 0;
+}
+
+.margin-xlg-d {
+  margin: 0 0 40px;
+}
+
+.margin-xlg-u {
+  margin: 40px 0 0;
+}
+
+/****** Colors ******/
+.form form .inputPass {
+  position: relative;
+}
+.form form .inputPass .pass-txt {
+  position: absolute;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 12px;
+}
+.form form .inputPass .pass-txt a {
+  color: #1A4F8B;
+}
+
+input {
+  border: 1px solid #767676;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+input.input--lg {
+  width: 324px;
+}
+input:focus {
+  border-color: #1A4F8B;
+  color: #1A4F8B;
+}
+input.input__user:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
+}
+input.input__password:before {
+  content: "\f023";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+}
+
+.breakTxt {
+  color: #B0B0B0;
+}
+
+.btn {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 165px;
+}
+.btn.btn--lg {
+  width: 344px;
+}
+.btn.btn--blue {
+  background-color: #1A4F8B;
+}
+.btn.btn--red {
+  background-color: #F14436;
+}
+
+.btns__login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 346px;
+}

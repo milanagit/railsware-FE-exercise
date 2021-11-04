@@ -1,0 +1,87 @@
+@import 'abstracts';
+
+.mainContent {
+
+}
+
+.imgContainer {
+
+}
+
+.heading {
+
+}
+
+.form {
+    form {
+        .inputPass {
+            position: relative;
+            .input__password {
+                
+            }
+            .pass-txt {
+                position: absolute;
+                right: 0;
+                right: 0;
+                bottom: 0;
+                font-size: 12px;
+                a {
+                    color: $link;
+                }
+            }
+        }
+
+    }
+}
+
+input {
+    border: 1px solid $inputField;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    &.input--lg {
+        width: 324px;
+    }
+    &:focus {
+        border-color: $inputFieldFocus;
+        color: $inputFieldFocus;
+    }
+
+    &.input__user {
+        &:before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f007";
+        }
+    }
+    &.input__password {
+        &:before {
+            content: "\f023";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            display: inline-block;
+        }
+    }
+}
+
+.breakTxt {
+    color: $breakTxt;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 165px;
+    &.btn--lg {
+        width: 344px;
+    }
+    &.btn--blue {
+        background-color: $LoginBtn;
+    }
+    &.btn--red {
+        background-color: $GoogleBtn;
+    }
+}

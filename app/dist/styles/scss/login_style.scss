@@ -1,5 +1,11 @@
-@use 'abstracts';
-@use 'base';
-@use 'components';
+@import 'abstracts';
+@import 'base';
+@import 'components';
 
 // Here go styles related only to LOGIN page
+.btns__login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 346px;
+}
