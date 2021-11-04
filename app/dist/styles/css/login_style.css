@@ -27,6 +27,10 @@ h1 {
   margin: 0;
 }
 
+a {
+  color: #1A4F8B;
+}
+
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #767676;
@@ -56,19 +60,23 @@ h1 {
 }
 
 .margin-lg-d {
-  margin: 0 0 20px;
+  margin-bottom: 20px;
 }
 
 .margin-lg-u {
-  margin: 20px 0 0;
+  margin-top: 20px;
 }
 
 .margin-xlg-d {
-  margin: 0 0 40px;
+  margin-bottom: 40px;
 }
 
 .margin-xlg-u {
-  margin: 40px 0 0;
+  margin-top: 40px;
+}
+
+.margin-xxlg-u {
+  margin-top: 200px;
 }
 
 /****** Colors ******/
@@ -81,9 +89,6 @@ h1 {
   right: 0;
   bottom: 0;
   font-size: 12px;
-}
-.form form .inputPass .pass-txt a {
-  color: #1A4F8B;
 }
 
 input {
@@ -122,6 +127,7 @@ input.input__password:before {
   border: none;
   border-radius: 5px;
   width: 165px;
+  cursor: pointer;
 }
 .btn.btn--lg {
   width: 344px;

@@ -35,6 +35,10 @@ h1 {
     margin: 0;
 }
 
+a {
+    color: $link;
+}
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: $inputField;
 }
@@ -58,17 +62,21 @@ h1 {
 
 // Margins
 .margin-lg-d {
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 .margin-lg-u {
-    margin: 20px 0 0;
+    margin-top: 20px;
 }
 
 .margin-xlg-d {
-    margin: 0 0 40px;
+    margin-bottom: 40px;
 }
 
 .margin-xlg-u {
-    margin: 40px 0 0;
+    margin-top: 40px;
+}
+
+.margin-xxlg-u {
+    margin-top: 200px;
 }
