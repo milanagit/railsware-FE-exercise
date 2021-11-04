@@ -3,3 +3,18 @@
 @import 'components';
 
 // Here go styles related only to UPGRADE page
+.dateCvv__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .input__cvvContent {
+        position: relative;
+        span {
+            position: absolute;
+            right: 0;
+            bottom: 12px;
+            font-size: 12px;
+        }
+    }
+}

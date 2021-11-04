@@ -40,6 +40,9 @@ input {
     &.input--lg {
         width: 324px;
     }
+    &.input--sm {
+        width: 145px;
+    }
     &:focus {
         border-color: $inputFieldFocus;
         color: $inputFieldFocus;
@@ -81,5 +84,8 @@ input {
     }
     &.btn--red {
         background-color: $GoogleBtn;
+    }
+    &.btn--darkRed {
+        background-color: $UpgradeBtn;
     }
 }

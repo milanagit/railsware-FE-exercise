@@ -5,9 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upgrade Page</title>
+    <link href="dist/fonts/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/styles/css/upgrade_page_style.css">
 </head>
 <body>
+
+    <div class="mainContent mainContent__upgrade center">
+         <!-- Heading -->
+         <div class="heading heading__upgrade margin-lg-u">
+            <h1>Get Pro Account</h1>
+        </div>
+
+        <!-- Image -->
+        <div class="imgContainer imgContainer__upgrade margin-lg-u margin-lg-d">
+            <img src="dist/images/undraw_online_payments_luau 1.png" alt="Upgrade image">
+        </div>
+       
+        <!-- Form -->
+        <div class="form form__upgrade">
+            <form class="center" action="">
+                <input class="input__card input--lg margin-lg-d" type="text" placeholder="Card Number">
+
+                <div class="dateCvv__container">
+
+                    <input class="input__date input--sm input--lg margin-lg-d" type="text" placeholder="MM/YY">
+
+                    <div class="input__cvvContent">
+                        <input type="text" class="input__cvv input--sm" placeholder="CVV">
+                        <span>What's this?</span>
+                    </div>
+
+                </div>
+
+                <input class="input__postal input--lg margin-lg-d" type="text" placeholder="ZIP/Postal Code">
+                <button class="btn btn__upgrade btn--lg btn--darkRed margin-lg-u" type="submit">UPGRADE</button>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>
